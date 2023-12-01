@@ -1,9 +1,21 @@
-python3 -m venv env # Create a virtual environment
-source env/bin/activate # Activate the virtual environment on Linux/macOS
+### Create a virtual environment
 
-# or
+`python3 -m venv env`
 
-env\Scripts\activate # Activate the virtual environment on Windows
-pip install -r requirements.txt # Install dependencies
+### Activate the virtual environment on Linux/macOS
 
-python3 main.py # run the script
+`source env/bin/activate`
+
+or
+
+### Activate the virtual environment on Windows
+
+`env\Scripts\Activate`
+
+### Install dependencies
+
+`pip install -r requirements.txt`
+
+### Run the script
+
+`python3 main.py`
